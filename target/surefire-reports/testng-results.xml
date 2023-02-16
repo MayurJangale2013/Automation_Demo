@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-16T14:19:18 IST" name="Suite" finished-at="2023-02-16T14:21:12 IST" duration-ms="113622">
+    <groups>
+    </groups>
+    <test started-at="2023-02-16T14:19:18 IST" name="Test" finished-at="2023-02-16T14:21:12 IST" duration-ms="113622">
+      <class name="Test.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:19:18 IST" name="setUp" finished-at="2023-02-16T14:19:41 IST" duration-ms="22541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:19:41 IST" name="verifyInvalidLogin" data-provider="getCredentials" finished-at="2023-02-16T14:19:46 IST" duration-ms="5500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:19:46 IST" name="tearDwon" finished-at="2023-02-16T14:19:46 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:19:46 IST" name="setUp" finished-at="2023-02-16T14:20:12 IST" duration-ms="25469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:20:12 IST" name="verifyInvalidLogin" data-provider="getCredentials" finished-at="2023-02-16T14:20:14 IST" duration-ms="1878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:20:14 IST" name="tearDwon" finished-at="2023-02-16T14:20:16 IST" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:20:16 IST" name="setUp" finished-at="2023-02-16T14:20:44 IST" duration-ms="28325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:20:44 IST" name="verifyInvalidLogin" data-provider="getCredentials" finished-at="2023-02-16T14:20:45 IST" duration-ms="1323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:20:45 IST" name="tearDwon" finished-at="2023-02-16T14:20:45 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:20:45 IST" name="setUp" finished-at="2023-02-16T14:21:07 IST" duration-ms="21347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:21:07 IST" name="verifyLogin" finished-at="2023-02-16T14:21:12 IST" duration-ms="4875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:Test.LoginPageTest@434a63ab]" started-at="2023-02-16T14:21:12 IST" name="tearDwon" finished-at="2023-02-16T14:21:12 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+      </class> <!-- Test.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
